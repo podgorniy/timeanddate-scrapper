@@ -1,0 +1,19 @@
+{
+  "name": "scrap-timeanddate",
+  "version": "0.1.0",
+  "description": "Scaps all holidays https://www.timeanddate.com/holidays/ into JSON file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.3"
+  },
+  "dependencies": {
+    "crawler": "^1.1.2",
+    "moment": "^2.20.1"
+  }
+}
