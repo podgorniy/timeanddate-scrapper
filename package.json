@@ -4,7 +4,6 @@
   "description": "Scaps all holidays https://www.timeanddate.com/holidays/ into JSON file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./src/index.js"
   },
   "author": "",
